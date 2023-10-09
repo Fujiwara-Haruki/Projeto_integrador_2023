@@ -6,13 +6,15 @@
 
 body{
     display: grid;
+    font-size: 18px;
 }
 
 /*variáveis*/
 :root{
     --altura_header: 65px;
     --altura_footer: 40px;
-    --main_color: rgb(104, 80, 136);
+    --main_color: #B9235E;
+    --main-hover-color: #ffaece;
 }
 
 /*cabelçalho*/
@@ -33,7 +35,7 @@ body{
 
 /*elemento*/
 .menu_1 li{
-    padding: 23px 0px;
+    padding: 21px 0px;
 }
 
 /*link*/
@@ -45,12 +47,25 @@ body{
 }
 
 .menu_1 a:hover{
-    background-color: rgb(78, 18, 134);
+    background-color: var(--main-hover-color);
+    color: var(--main_color);
 }
 
 /*principal----------------------------------*/
-.meio{
+.corpo{
     min-height: calc(100vh - var(--altura_header) - var(--altura_footer));
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*página*/
+.meio{
+    text-align: justify;
+}
+
+/* DIV DAS IMAGENS */
+.div_imagem{
+    text-align: center;
 }
 
 
