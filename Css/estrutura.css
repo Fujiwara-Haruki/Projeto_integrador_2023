@@ -1,0 +1,30 @@
+
+/*principal----------------------------------*/
+.corpo{
+    min-height: calc(100vh - var(--altura_header) - var(--altura_footer));
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+/*página*/
+.meio{
+    text-align: justify;
+}
+
+/*títulos*/
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid var(--main_color);
+}
+
+/* DIV DAS IMAGENS */
+.div_imagem{
+    text-align: center;
+
+}
+
+.imagem{
+    width: 59vw;
+    max-height: 40vw;
+}
