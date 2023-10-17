@@ -1,2 +1,43 @@
-@import url(menu.css);
+@import url(style.css);
+@import url(header.css);
+@import url(estrutura.css);
+@import url(footer.css);
 
+/*imagem inicial*/
+
+.imagem_inicial{
+    height: auto; 
+    max-width: 800px;
+}
+
+h3{
+    text-align: center;
+}
+
+.div_alunos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.div_alunos_individual{
+    padding: 20px;
+}
+
+
+.imagem_alunos{
+    width: 35vw;
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 20%;
+    
+}
+
+@media (width < 750px){
+
+    .div_alunos_individual{
+        padding: 0px;
+    }
+
+}

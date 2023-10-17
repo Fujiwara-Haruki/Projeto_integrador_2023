@@ -2,8 +2,8 @@
 /*principal----------------------------------*/
 .corpo{
     min-height: calc(100vh - var(--altura_header) - var(--altura_footer));
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 18vw;
+    margin-right: 18vw;
 }
 
 /*página*/
