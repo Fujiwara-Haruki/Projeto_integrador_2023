@@ -7,6 +7,7 @@
 body{
     display: grid;
     font-size: 18px;
+    font-family: Garamond, "Baskerville", "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 /*variáveis*/
@@ -21,13 +22,20 @@ body{
 .header{
     background-color: var(--main_color);
     height: var(--altura_header);
-    display: flex;
+    /*tentando o grid*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
 
 }
 
 /*menu cabeçalho*/
 .menu_1{
-    display: flex;
+    /*tentando o grid*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    
     list-style: none;
     text-align: center;
     position: relative;
@@ -35,7 +43,7 @@ body{
 
 /*elemento*/
 .menu_1 li{
-    padding: 21px 0px;
+    padding: 20px 0px;
 }
 
 /*link*/
@@ -63,9 +71,20 @@ body{
     text-align: justify;
 }
 
+/*títulos*/
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid var(--main_color);
+}
+
 /* DIV DAS IMAGENS */
 .div_imagem{
     text-align: center;
+}
+
+.imagem{
+    max-width: 59vw;
 }
 
 
@@ -77,3 +96,6 @@ footer{
     text-align: center;
     color: beige
 }
+
+/*resposividade*/
+
