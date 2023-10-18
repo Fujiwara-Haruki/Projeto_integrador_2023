@@ -22,16 +22,16 @@ h3{
 }
 
 .div_alunos_individual{
-    padding: 20px;
+    padding: 40px;
+    
 }
 
 
 .imagem_alunos{
-    width: 35vw;
-    max-width: 200px;
-    padding: 20px;
+    width: 30vw;
+    max-width: 155px;
     border-radius: 20%;
-    
+    border: 5px solid var(--main_color);
 }
 
 @media (width < 750px){

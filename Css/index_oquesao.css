@@ -1,0 +1,45 @@
+@import url(style.css);
+@import url(header.css);
+@import url(estrutura.css);
+@import url(footer.css);
+ 
+/*imagem 1*/
+
+.img_celulas_tronco{
+    width: auto;
+    min-height: 200px;
+}
+
+
+/*Botões (lista e menu)*/
+.botoes{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+/*elemento*/
+.botoes li{
+    display: flex;
+    padding: 20px 0px;
+    align-self: center;
+}
+
+/*link*/
+.botoes a{
+    height: 100%;
+    padding: 24px;
+    text-decoration: none;
+    color: var(--main_color);
+    background-color: var(--button-color);
+    border-radius: 20px;
+    border: 2px solid var(--main_color);
+    align-items: center;
+}
+
+.botoes a:hover{
+    background-color: var(--main-hover-color);
+    color: var(--main_color);
+}
