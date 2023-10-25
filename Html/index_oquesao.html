@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O que são células Tronco</title>
+    <title>O que são células Tronco?</title>
 
     <link href="../Css/index_oquesao.css" type="text/css" rel="stylesheet">
 </head>
@@ -34,23 +34,52 @@
             <h3 class="titulo">O que são Células Tronco?</h3> <br/>
 
             <!--texto-->
-            <p> As células-tronco são células com a capacidade de se diferenciar em vários tipos de células especializadas 
-                no corpo humano. Elas desempenham uma função importantíssima no desenvolvimento, crescimento, reparo e
-                renovação dos tecidos do corpo.
+            <p> Células tronco, são células que não têm uma especialidade, e têm a capacidade de autorrenovação.
+                Além de poder se multiplicar em outras células tronco, como essas células não tem 
+                especialidade, elas podem se transformar em outros tipos de células (como célula nervosa, célula 
+                do intestino, célula sanguínea, célula cardiaca...).
 
             </p> <br/>
             <!--imagem-->
             <div class="div_imagem">
-                <img class=" imagem img_celulas_tronco" src="../Imagens/celulas_tronco.png">
+                <img class=" imagem img_celulas_tronco" src="../Imagens/celulas_tronco.png" >
             </div>
 
-            
+             <br/>
 
-            <!--texto-->
-            <p> Essas células têm o potencial de regenerar tecidos danificados, então podem auxiliar no tratamento 
-                de doenças como câncer, Parkinson, Alzheimer, doenças degenerativas e cardíacas.
-            </p> <br/>
-            
+            <!--Aplicações-->
+            <h3 class="titulo">Aplicações</h3> <br/>
+
+            <div class="bloco-flex">
+            <img class="img-aplicacoes" src="../Imagens/medicinaRegenerativa.png" onclick="apliUm()">
+
+                <div class= "texto-um">
+                    <p> <h4>Medicina Regenerativa:</h4> As células-tronco têm o potencial de regenerar tecidos danificados ou doentes.
+                        Isso pode ter aplicações em tratamentos para certas condições como lesões na medula espinhal, 
+                        doenças cardíacas e diabetes</p>
+                </div>
+            </div>
+
+            <div class="texto-dois">
+                <img class="img-aplicacoes" src="../Imagens/pesquisaMedica.png" onclick="">
+    
+                    <div class="texto-bloco">
+                        <p><h4>Pesquisa Médica:</h4> As células-tronco são extremamente necessárias para entender as bases 
+                            genéticas de doenças e para desenvolver medicamentos e terapias personalizadas.</p>
+                    </div>
+                </div>
+
+                <div class="texto-tres">
+                    <img class="img-aplicacoes" src="../Imagens/bancoCelulasTronco.png">
+        
+                        <div class="texto-bloco">
+                            <p><h4>Banco de Células-Tronco:</h4> As pessoas podem armazenar suas próprias células-tronco para uso
+                                 futuro, caso elas necessitem de algum tratamento médico.</p>
+                        </div>
+                    </div>
+            </div>
+
+            <!--vídeo-->
             <div class="div_imagem"></div>
                 <video class=" imagem video_1" controls src="../Vídeo/reportagem.mp4"></video> <br/><br/>
             </div>
@@ -68,8 +97,11 @@
     <!--rodapé-->
 
     <footer>
-        <p> rodapé</p>
+         <p>rodapé</p>
     </footer>
+
+    <!--scripts-->
+    <script href=" ../Js/scriptAplicacoes.js"></script>
     
 </body>
 </html>

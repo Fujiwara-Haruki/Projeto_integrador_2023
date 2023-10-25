@@ -43,3 +43,39 @@
     background-color: var(--main-hover-color);
     color: var(--main_color);
 }
+
+/*Imagens*/
+.img-aplicacoes{
+    width: 40vw;
+    max-width: 300px;
+    border-radius: 20px;
+    margin: 20px;
+    border: 2px solid transparent;
+}
+
+.img-aplicacoes:hover{
+    cursor: pointer;
+    border: 2px solid var(--main_color);
+}
+
+
+/*Ajeitar blocos*/
+.bloco-flex{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    border: 2px solid var(--main_color);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.texto-um, .texto-dois, .texto-tres{
+    display: none;
+}
+
+
+@media (width < 1088px){
+    .bloco-flex{
+        flex-direction: column;
+    }
+}
