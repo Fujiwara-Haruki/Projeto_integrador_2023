@@ -2,8 +2,8 @@
 /*principal----------------------------------*/
 .corpo{
     min-height: calc(100vh - var(--altura_header) - var(--altura_footer));
-    margin-left: 18vw;
-    margin-right: 18vw;
+    margin-left: 18%;
+    margin-right: 18%;
 }
 
 /*página*/
@@ -16,6 +16,7 @@
     text-align: center;
     font-size: 25px;
     border: 1px solid var(--main_color);
+    background-color: var(--main-hover-color)
 }
 
 /* DIV DAS IMAGENS */
@@ -24,6 +25,50 @@
 }
 
 .imagem{
-    width: 59vw;
+    width: 60vw;
     max-height: 40vw;
+}
+
+
+/*Botões*/
+.botoes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+/*elemento*/
+.botoes li{
+    display: flex;
+    padding: 20px 0px;
+    align-self: center;
+}
+
+/*link*/
+.botoes a{
+    height: 100%;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--main_color);
+    background-color: var(--button-color);
+    border-radius: 20px;
+    border: 2px solid var(--main_color);
+    align-items: center;
+}
+
+.botoes a:hover{
+    background-color: var(--button-hover-color);
+    color: var(--main_color);
+}
+
+hr{
+    border-color: var(--main_color);
+}
+
+@media (width < 485px){
+    .corpo{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }

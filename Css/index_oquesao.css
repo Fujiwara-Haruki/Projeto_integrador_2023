@@ -11,38 +11,6 @@
 }
 
 
-/*Botões (lista e menu)*/
-.botoes{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    text-align: center;
-    position: relative;
-}
-
-/*elemento*/
-.botoes li{
-    display: flex;
-    padding: 20px 0px;
-    align-self: center;
-}
-
-/*link*/
-.botoes a{
-    height: 100%;
-    padding: 24px;
-    text-decoration: none;
-    color: var(--main_color);
-    background-color: var(--button-color);
-    border-radius: 20px;
-    border: 2px solid var(--main_color);
-    align-items: center;
-}
-
-.botoes a:hover{
-    background-color: var(--main-hover-color);
-    color: var(--main_color);
-}
 
 /*Imagens*/
 .img-aplicacoes{
@@ -67,10 +35,12 @@
     border: 2px solid var(--main_color);
     border-radius: 20px;
     padding: 20px;
+    
 }
 
 .texto-um, .texto-dois, .texto-tres{
-    display: none;
+    font-size: 0px;
+    transition: font-size 1s; /*aparecer e dasaparecer*/
 }
 
 
@@ -79,3 +49,4 @@
         flex-direction: column;
     }
 }
+

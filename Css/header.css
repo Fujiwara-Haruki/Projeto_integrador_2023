@@ -5,6 +5,7 @@
     height: var(--altura_header) * 2;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*menu cabeçalho*/
@@ -14,6 +15,7 @@
     list-style: none;
     text-align: center;
     position: relative;
+    justify-content: center;
 }
 
 /*elemento*/

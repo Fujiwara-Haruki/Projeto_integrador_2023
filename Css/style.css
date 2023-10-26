@@ -8,15 +8,18 @@ body{
     display: grid;
     font-size: 20px;
     font-family: "Comic Sans MS";
-    background-color:#fdf9e7
+    background-color: var(--body-color);
+    color: var(--main_color);
 }
 
 /*variáveis*/
 :root{
     --altura_header: 65px;
-    --altura_footer: 40px;
+    --altura_footer: 60px;
     --main_color: #B9235E;
     --main-hover-color: #ffaece;
-    --button-color: #fff9a1; 
+    --button-color: #ffa1a1; 
+    --button-hover-color: #ffe7e7;
+    --body-color: #fdf9e7;
 }
 
