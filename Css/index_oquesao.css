@@ -38,6 +38,10 @@
     
 }
 
+.bloco{
+    text-align: center;
+}
+
 .texto-um, .texto-dois, .texto-tres{
     font-size: 0px;
     transition: font-size 1s; /*aparecer e dasaparecer*/
